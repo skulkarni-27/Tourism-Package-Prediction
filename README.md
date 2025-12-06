@@ -62,7 +62,9 @@ Model Building	Python, Scikit-Learn / XGBoost
 Deployment	Docker + Hugging Face Spaces
 Experiment Tracking & Registry	Hugging Face Model Hub
 UI for predictions	Streamlit
+
 🔄 MLOps Pipeline Workflow
+```
 flowchart LR
 A[Data from Hugging Face Dataset] --> B[Data Cleaning & Preprocessing]
 B --> C[Train-Test Split]
@@ -72,7 +74,7 @@ E --> F[Register Best Model on HF Hub]
 F --> G[Containerize Deployment]
 G --> H[Deploy to Hugging Face Spaces]
 H --> I[Continuous Monitoring & Automated Updates via GitHub Actions]
-
+```
 🧪 Model Development
 
 ✔ Multiple ML Models tested
@@ -104,18 +106,23 @@ Workflow file:
 📌 .github/workflows/pipeline.yml
 
 📂 Repository Structure
-├── data/                    # Data loading & HF registration scripts
-├── models/                  # Model-related scripts + metadata
-├── app/                     # Streamlit frontend files
-├── Dockerfile               # Container environment
-├── requirements.txt         # Deployment dependencies
-├── pipeline.yml             # GitHub Actions workflow
-├── src/                     # All Python source code modules
+```
+project/
+├── data/                      # Data loading & HF registration scripts
+├── models/                    # Model-related scripts + metadata
+├── app/                       # Streamlit frontend files
+├── Dockerfile                 # Container environment
+├── requirements.txt           # Deployment dependencies
+├── pipeline.yml               # GitHub Actions workflow
+├── src/                       # All Python source code modules
 │   ├── data_preprocess.py
 │   ├── model_train.py
 │   ├── evaluate.py
 │   └── deploy.py
-└── README.md                # Project documentation
+└── README.md                  # Project documentation
+```
+
+
 
 🚀 Live Deployment & Resources
 Resource	Link
