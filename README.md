@@ -125,9 +125,13 @@ project/
 
 
 🚀 Live Deployment & Resources
+
 Resource	Link
+
 📌 GitHub Repository	- https://github.com/skulkarni-27/Tourism-Package-Prediction
+
 🤖 Hugging Face Model	- https://huggingface.co/SharleyK/TourismPackagePrediction-Model
+
 🌐 Hugging Face Spaces App	- https://huggingface.co/spaces/SharleyK/TourismPackagePrediction
 
 
@@ -143,11 +147,17 @@ Replace placeholders once deployment is complete.
 A brief report summarizing feature importance and business interpretation is included inside the notebook.
 
 Submission Requirement Checklist
+
 1.Data registered on HF dataset	
+
 2.Train/Test upload back to HF	
+
 3.Best model registered on HF Model Hub	
+
 4.Hugging Face Space deployed	
+
 5.GitHub Actions automation pipeline	
+
 6.Notebook completed with insights	
 
 Future Enhancements
